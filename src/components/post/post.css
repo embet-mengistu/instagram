@@ -1,0 +1,47 @@
+.post_header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  margin-top: 10px;
+}
+.post_header p {
+  margin-left: 10px;
+}
+.comment_input {
+  width: 92%;
+}
+.post_button {
+  border: none;
+  background-color: white;
+  padding-left: 5px;
+  color: rgb(23, 162, 248);
+}
+.home {
+  background-color: white;
+  padding: 0 20px 20px;
+  /* margin-top: 10px; */
+  max-width: 80vh;
+  margin-bottom: 5px;
+  /* margin: 0 auto; */
+  /* border: 5px solid; */
+  background-color: white;
+  /* border: 1px solid lightgray; */
+}
+.post_div {
+  border: 1px solid lightgray;
+}
+.post_image {
+  width: 100%; /* Image width takes the full width of the container */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  max-width: 100%; /* Ensure the image does not exceed its original size */
+  object-fit: contain; /* Fit the image while maintaining its aspect ratio */
+}
+
+.comment_input {
+  border: none;
+}
+.comment_input:focus {
+  outline: none; /* Remove the outline that creates the border */
+  /* Add any other styling you want for the focused state */
+}

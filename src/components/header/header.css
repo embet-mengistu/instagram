@@ -1,0 +1,42 @@
+.message_logo {
+  width: 39px;
+}
+.header_logos {
+  display: flex !important;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  padding-top: 20px;
+}
+.message_button {
+  border: none;
+  /* width: 0px; */
+  height: 30px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border-bottom: 2px solid;
+  border-color: lightslategrey;
+}
+.header Button {
+  border: none;
+  background: white;
+  color: rgb(23, 162, 248);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: var(
+    --background-paper
+  ); /* Assuming --background-paper is defined */
+  border: 2px solid #000;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.24);
+  padding: 16px; /* You can use padding instead of p */
+  background-color: white;
+}

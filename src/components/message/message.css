@@ -1,0 +1,22 @@
+.message_title {
+  font-size: 25px;
+  font-weight: bold;
+
+  padding-top: 5px;
+  margin-bottom: 30px;
+}
+.container {
+  margin-left: 10px;
+}
+.message_contanier {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.post_avatars {
+  height: 60px;
+  width: 60px;
+}
+.username_contanier {
+  margin-left: 5px;
+}

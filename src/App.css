@@ -1,0 +1,20 @@
+.App {
+  max-width: 80vh;
+  /* width: 100vh; */
+  height: 100vh;
+  background-color: #fafafa;
+
+  margin: 0 auto;
+  box-shadow: 0 0 10px 0 #5c5b5b;
+  overflow: scroll;
+  /* padding: 0 20px; */
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide the scrollbar, but keep the scroll functionality */
+::-webkit-scrollbar {
+  width: 0.5em; /* Adjust the width as needed */
+}
