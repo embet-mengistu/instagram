@@ -4,13 +4,13 @@ import "firebase/compat/firestore";
 import "firebase/compat/storage";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyApNKWhmqYiDpbHwOr2_7pBS7r_mbfn1K0",
-  authDomain: "insta-86cee.firebaseapp.com",
-  projectId: "insta-86cee",
-  storageBucket: "insta-86cee.appspot.com",
-  messagingSenderId: "576540268135",
-  appId: "1:576540268135:web:fd34506e7ef50973eba6c2",
-  measurementId: "G-KZRVV524KZ",
+  apiKey: "AIzaSyCzDemirEfQXv1DKgB6yXghK7czI1ImVjI",
+  authDomain: "insta2-4cb73.firebaseapp.com",
+  projectId: "insta2-4cb73",
+  storageBucket: "insta2-4cb73.appspot.com",
+  messagingSenderId: "856200415097",
+  appId: "1:856200415097:web:a4d1324a742b07561491a8",
+  measurementId: "G-DX2Z8E1TEY",
 });
 
 const db = firebaseApp.firestore();
